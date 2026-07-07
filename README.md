@@ -16,23 +16,49 @@ Desarrollado como herramienta de análisis para tesis de grado — UNER, 2026.
 ## Instalación
 
 ```bash
-# 1. Clonar el repositorio
-git clone https://github.com/priscilaInderkumer99/Dashboard-analisis-microbioma.git
-cd dashboard_tesis/dashboard-microbioma/Dashboard-analisis-microbioma
+### 1. Clonar el repositorio
 
-# 2. Crear entorno virtual
+```bash
+git clone https://github.com/priscilaInderkumer99/Caracterizacion-de-comunidades-microbianas-en-agua-y-sedimento-del-Rio-Lujan.git
+```
+
+### 2. Ingresar al directorio del proyecto
+
+```bash
+cd Caracterizacion-de-comunidades-microbianas-en-agua-y-sedimento-del-Rio-Lujan
+```
+
+### 3. Acceder a la carpeta del dashboard
+
+```bash
+cd dashboard_mb
+```
+
+### 4. Crear un entorno virtual
+
+```bash
 python3 -m venv venv
+```
+
+### 5. Activar el entorno virtual
+
+```bash
 source venv/bin/activate
+```
 
-# 3. Instalar dependencias
+### 6. Instalar las dependencias
+
+```bash
 pip install -r requirements.txt
+```
 
-# 4. Correr el dashboard
+### 7. Ejecutar la aplicación
+
+```bash
 streamlit run app.py
 ```
 
-El dashboard se abre automáticamente en el navegador en `http://localhost:8501`.
-
+La aplicación se abrirá automáticamente en el navegador. Si no ocurre, copiá y pegá en el navegador la dirección que aparece en la terminal (por ejemplo, `http://localhost:8501`).
 ---
 
 ## Estructura del proyecto
