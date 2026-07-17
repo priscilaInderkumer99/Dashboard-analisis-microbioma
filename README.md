@@ -18,43 +18,43 @@ Desarrollado como herramienta de análisis para tesis de grado — UNER, 2026.
 1. Clonar el repositorio.
 
 ```bash
-git clone https://github.com/priscilaInderkumer99/Caracterizacion-de-comunidades-microbianas-en-agua-y-sedimento-del-Rio-Lujan.git
+git clone https://github.com/priscilaInderkumer99/Dashboard-analisis-microbioma.git
 ```
 
 2. Ingresar al directorio del proyecto.
 
 ```bash
-cd Caracterizacion-de-comunidades-microbianas-en-agua-y-sedimento-del-Rio-Lujan
+cd Dashboard-analisis-microbioma
 ```
 
-3. Acceder a la carpeta donde se encuentra el dashboard.
-
-```bash
-cd dashboard_mb
-```
-
-4. Crear un entorno virtual.
+3. Crear un entorno virtual.
 
 ```bash
 python3 -m venv venv
 ```
 
-5. Activar el entorno virtual.
+4. Activar el entorno virtual.
 
 ```bash
 source venv/bin/activate
 ```
 
-6. Instalar las dependencias.
+5. Instalar las dependencias.
 
 ```bash
 pip install -r requirements.txt
 ```
 
-7. Ejecutar la aplicación.
+6. Ejecutar la aplicación.
 
 ```bash
 streamlit run app.py
+```
+
+Una vez ejecutado el último comando, Streamlit iniciará la aplicación y mostrará en la terminal una dirección similar a:
+
+```text
+Local URL: http://localhost:8501
 ```
 
 La aplicación se abrirá automáticamente en el navegador. Si esto no sucede, copiá y pegá en el navegador la dirección que aparece en la terminal (por ejemplo, `http://localhost:8501`).
